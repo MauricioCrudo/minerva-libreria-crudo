@@ -1,0 +1,16 @@
+.add-wrapper {
+	padding: 20px;
+	display: grid;
+	place-content: center;
+}
+.add-form {
+	display: flex;
+	flex-direction: column;
+	max-width: 800px;
+}
+.add-form textarea {
+	resize: none;
+	max-width: 800px;
+	min-width: 300px;
+	min-height: 200px;
+}

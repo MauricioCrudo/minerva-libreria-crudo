@@ -1,0 +1,27 @@
+.item-count-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  max-width: 250px;
+
+  border-radius: 15px;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+.counter button {
+  padding: 5px;
+  width: 55px;
+  height: 25px;
+  margin: 15px;
+}
+.add-to-cart button {
+  padding: 10px;
+}
+.add-to-cart button :hover {
+  color: green;
+}
